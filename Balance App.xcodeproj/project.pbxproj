@@ -8,20 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		9C5DD8D12832BA1800641640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8D02832BA1800641640 /* AppDelegate.swift */; };
-		9C5DD8D52832BA1800641640 /* AdviseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8D42832BA1800641640 /* AdviseViewController.swift */; };
+		9C5DD8D52832BA1800641640 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8D42832BA1800641640 /* TasksViewController.swift */; };
 		9C5DD8DB2832BA1800641640 /* Balance_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8D92832BA1800641640 /* Balance_App.xcdatamodeld */; };
 		9C5DD8DD2832BA1900641640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5DD8DC2832BA1900641640 /* Assets.xcassets */; };
 		9C5DD8E02832BA1900641640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5DD8DE2832BA1900641640 /* LaunchScreen.storyboard */; };
+		9C5DD8E82834F0BD00641640 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8E72834F0BD00641640 /* ProfileViewController.swift */; };
+		9C5DD8EA2834F12300641640 /* AdviseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8E92834F12300641640 /* AdviseViewController.swift */; };
+		9C5DD8ED2834F98B00641640 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8EC2834F98B00641640 /* UIFont + Extension.swift */; };
+		9C5DD8F02834F9B400641640 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8EF2834F9B400641640 /* UIColor + Extension.swift */; };
+		9C5DD8F22834F9DC00641640 /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8F12834F9DC00641640 /* StackView + Extension.swift */; };
+		9C5DD8F42834FAE400641640 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8F32834FAE400641640 /* MainTabBarController.swift */; };
+		9C5DD8F62835293000641640 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8F52835293000641640 /* SectionHeader.swift */; };
+		9C5DD8F928353D4000641640 /* Bundle+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD8F828353D4000641640 /* Bundle+Decode.swift */; };
+		9C5DD8FC2835479D00641640 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C5DD8FB2835479D00641640 /* data.json */; };
+		9C5DD8FF28354ACB00641640 /* data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C5DD8FE28354ACB00641640 /* data1.json */; };
+		9C5DD9012836355B00641640 /* HealthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD9002836355B00641640 /* HealthCell.swift */; };
+		9C5DD9042836372500641640 /* Label + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD9032836372500641640 /* Label + Extension.swift */; };
+		9C5DD908283652D300641640 /* RichnessOfLifeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD907283652D300641640 /* RichnessOfLifeCell.swift */; };
+		9C5DD90A28365E7700641640 /* SpiritualGrowthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD90928365E7700641640 /* SpiritualGrowthCell.swift */; };
+		9C5DD90C28365EE200641640 /* data2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C5DD90B28365EE200641640 /* data2.json */; };
+		9C5DD90E2836867C00641640 /* DescriptionAdviseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DD90D2836867C00641640 /* DescriptionAdviseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C5DD8CD2832BA1800641640 /* Balance App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Balance App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5DD8D02832BA1800641640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C5DD8D42832BA1800641640 /* AdviseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviseViewController.swift; sourceTree = "<group>"; };
+		9C5DD8D42832BA1800641640 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		9C5DD8DA2832BA1800641640 /* Balance_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Balance_App.xcdatamodel; sourceTree = "<group>"; };
 		9C5DD8DC2832BA1900641640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C5DD8DF2832BA1900641640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C5DD8E12832BA1900641640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5DD8E72834F0BD00641640 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9C5DD8E92834F12300641640 /* AdviseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviseViewController.swift; sourceTree = "<group>"; };
+		9C5DD8EC2834F98B00641640 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		9C5DD8EF2834F9B400641640 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		9C5DD8F12834F9DC00641640 /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
+		9C5DD8F32834FAE400641640 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		9C5DD8F52835293000641640 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		9C5DD8F828353D4000641640 /* Bundle+Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decode.swift"; sourceTree = "<group>"; };
+		9C5DD8FB2835479D00641640 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		9C5DD8FE28354ACB00641640 /* data1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data1.json; sourceTree = "<group>"; };
+		9C5DD9002836355B00641640 /* HealthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCell.swift; sourceTree = "<group>"; };
+		9C5DD9032836372500641640 /* Label + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label + Extension.swift"; sourceTree = "<group>"; };
+		9C5DD907283652D300641640 /* RichnessOfLifeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichnessOfLifeCell.swift; sourceTree = "<group>"; };
+		9C5DD90928365E7700641640 /* SpiritualGrowthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualGrowthCell.swift; sourceTree = "<group>"; };
+		9C5DD90B28365EE200641640 /* data2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data2.json; sourceTree = "<group>"; };
+		9C5DD90D2836867C00641640 /* DescriptionAdviseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionAdviseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +87,61 @@
 			isa = PBXGroup;
 			children = (
 				9C5DD8D02832BA1800641640 /* AppDelegate.swift */,
-				9C5DD8D42832BA1800641640 /* AdviseViewController.swift */,
-				9C5DD8DC2832BA1900641640 /* Assets.xcassets */,
+				9C5DD8EB2834F92600641640 /* Controllers */,
+				9C5DD8F52835293000641640 /* SectionHeader.swift */,
+				9C5DD8FA283543CB00641640 /* Extension */,
+				9C5DD8EE2834F99C00641640 /* UIKit */,
 				9C5DD8DE2832BA1900641640 /* LaunchScreen.storyboard */,
+				9C5DD8FB2835479D00641640 /* data.json */,
+				9C5DD8FE28354ACB00641640 /* data1.json */,
+				9C5DD90B28365EE200641640 /* data2.json */,
 				9C5DD8E12832BA1900641640 /* Info.plist */,
 				9C5DD8D92832BA1800641640 /* Balance_App.xcdatamodeld */,
+				9C5DD8DC2832BA1900641640 /* Assets.xcassets */,
 			);
 			path = "Balance App";
+			sourceTree = "<group>";
+		};
+		9C5DD8EB2834F92600641640 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DD9022836355F00641640 /* AdviseCell */,
+				9C5DD8F32834FAE400641640 /* MainTabBarController.swift */,
+				9C5DD8E72834F0BD00641640 /* ProfileViewController.swift */,
+				9C5DD8D42832BA1800641640 /* TasksViewController.swift */,
+				9C5DD8E92834F12300641640 /* AdviseViewController.swift */,
+				9C5DD90D2836867C00641640 /* DescriptionAdviseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C5DD8EE2834F99C00641640 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DD8EC2834F98B00641640 /* UIFont + Extension.swift */,
+				9C5DD8EF2834F9B400641640 /* UIColor + Extension.swift */,
+				9C5DD8F12834F9DC00641640 /* StackView + Extension.swift */,
+				9C5DD9032836372500641640 /* Label + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		9C5DD8FA283543CB00641640 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DD8F828353D4000641640 /* Bundle+Decode.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9C5DD9022836355F00641640 /* AdviseCell */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DD9002836355B00641640 /* HealthCell.swift */,
+				9C5DD907283652D300641640 /* RichnessOfLifeCell.swift */,
+				9C5DD90928365E7700641640 /* SpiritualGrowthCell.swift */,
+			);
+			path = AdviseCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +202,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5DD90C28365EE200641640 /* data2.json in Resources */,
 				9C5DD8E02832BA1900641640 /* LaunchScreen.storyboard in Resources */,
+				9C5DD8FC2835479D00641640 /* data.json in Resources */,
 				9C5DD8DD2832BA1900641640 /* Assets.xcassets in Resources */,
+				9C5DD8FF28354ACB00641640 /* data1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,9 +217,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C5DD8D52832BA1800641640 /* AdviseViewController.swift in Sources */,
+				9C5DD8D52832BA1800641640 /* TasksViewController.swift in Sources */,
+				9C5DD8F02834F9B400641640 /* UIColor + Extension.swift in Sources */,
+				9C5DD8F928353D4000641640 /* Bundle+Decode.swift in Sources */,
+				9C5DD908283652D300641640 /* RichnessOfLifeCell.swift in Sources */,
+				9C5DD8F62835293000641640 /* SectionHeader.swift in Sources */,
+				9C5DD90A28365E7700641640 /* SpiritualGrowthCell.swift in Sources */,
+				9C5DD9042836372500641640 /* Label + Extension.swift in Sources */,
+				9C5DD8F42834FAE400641640 /* MainTabBarController.swift in Sources */,
+				9C5DD8EA2834F12300641640 /* AdviseViewController.swift in Sources */,
+				9C5DD8F22834F9DC00641640 /* StackView + Extension.swift in Sources */,
+				9C5DD8ED2834F98B00641640 /* UIFont + Extension.swift in Sources */,
+				9C5DD8E82834F0BD00641640 /* ProfileViewController.swift in Sources */,
 				9C5DD8D12832BA1800641640 /* AppDelegate.swift in Sources */,
 				9C5DD8DB2832BA1800641640 /* Balance_App.xcdatamodeld in Sources */,
+				9C5DD90E2836867C00641640 /* DescriptionAdviseViewController.swift in Sources */,
+				9C5DD9012836355B00641640 /* HealthCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
